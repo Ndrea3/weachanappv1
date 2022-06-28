@@ -1,5 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import background from " ./coffee-and-donuts-pop-colour-background.png";
+  
+class App extends Component {
+  render() {
+    const myStyle={
+        backgroundImage: `url(${background})`,
+        height:'100vh',
+        marginTop:'-70px',
+        fontSize:'50px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    };
 
 function App() {
   return (
@@ -22,4 +34,6 @@ function App() {
   );
 }
 
-export default App;
+  }
+}
+  export default App;
