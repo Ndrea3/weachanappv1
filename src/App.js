@@ -1,7 +1,7 @@
 import "./App.css";
 import background from "./images/coffee-and-donuts-pop-color-background.png";
 
-function WebApp() {
+function App() {
   return (
     <div
       className="Webpage"
