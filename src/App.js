@@ -16,7 +16,7 @@ class App extends Component {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-page">
       <h1 className="App-header">
       The Weather Be Like...
         <span role="img" aria-label="Thinking Face">🤔</span>
