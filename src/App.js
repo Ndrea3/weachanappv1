@@ -1,6 +1,6 @@
 
 import './App.css';
-import background from " ./coffee-and-donuts-pop-colour-background.png";
+import background from " ./src/coffee-and-donuts-pop-colour-background.png";
   
 class App extends Component {
   render() {
