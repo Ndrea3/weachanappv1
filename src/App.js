@@ -14,7 +14,7 @@ class App extends Component {
   }
 }
 
-function App() {
+function WebApp() {
   return (
     <div className="Webpage">
       <h1 className="Header">
@@ -24,4 +24,4 @@ function App() {
     </div>
   );
 }
-  export default App;
+  export default WebApp;
