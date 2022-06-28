@@ -1,39 +1,27 @@
 
 import './App.css';
-import background from " ./src/coffee-and-donuts-pop-colour-background.png";
-  
+import background from "./src/images/coffee-and-donuts-pop-color-background.png";
 class App extends Component {
   render() {
-    const myStyle={
-        backgroundImage: `url(${background})`,
-        height:'100vh',
-        marginTop:'-70px',
-        fontSize:'50px',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
+    const myStyle = {
+      backgroundImage: `url(${background})`,
+      height: "100vh",
+      marginTop: "-70px",
+      fontSize: "50px",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
     };
+  }
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="App-header">
+      The Weather Be Like...
+        <span role="img" aria-label="Thinking Face">🤔</span>
+        </h1>
     </div>
   );
-}
-
-  }
 }
   export default App;
