@@ -1,6 +1,6 @@
 
 import './App.css';
-import background from ".src/images/coffee-and-donuts-pop-color-background.png";
+import background from "./images/coffee-and-donuts-pop-color-background.png";
 
 
 function WebApp() {
